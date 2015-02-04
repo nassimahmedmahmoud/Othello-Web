@@ -1,0 +1,187 @@
+/*Les Balises d'en-tete de la page (header, nav) et le background de la page*/
+
+
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(image/background4.jpg);
+
+
+}
+nav{
+	height: 50px;
+	text-align: center;
+	border-radius:10px;
+}
+
+
+.EnTete{
+	text-align:right ;
+	font-size : medium;
+	margin-left: auto;
+	margin-right: auto;
+}
+header ul a{
+	color : white;
+}
+header ul a,nav ul a{
+	width : 150px;
+	line-heigh : 50px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+}
+nav ul,header ul{
+	list-style-type: none;
+}
+nav li, header li{
+	
+	display :inline ;
+	font-size : 30px;
+
+}
+#Recherche{
+	float : right;
+	padding-right: 1em; 
+	padding-bottom: 10em ;
+}
+nav ul a{
+	color : white;
+}
+
+
+/*Balise main*/
+main h1{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 1em;
+}
+#titre{
+	background-color: #4682B4;
+	box-shadow : 1px 1px 1px grey;
+	text-shadow: 1px ;
+	padding: 5px;
+	color : white;
+	font-family:cursive
+}
+main{
+background-color: white;
+padding-bottom: 1.5em;
+border-radius:5px;
+}
+
+#contenuImage{
+	border : solid 5px grey;
+	margin-left : 1em;
+
+	border-radius:5px;
+}
+main div,#contenuImage{
+	background-color: #F8F8FF;
+	margin : 0em 1em 0em 1em;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #C8C8C8;
+}
+
+#achat, main div p , #button{
+	position: absolute;
+	float : right;
+	margin-left: 27em;
+}
+main div p {
+	display: inline;
+	margin-top: 8em;
+	text-align: center;
+}
+#achat{
+	margin-top: 1em;
+}
+#button{
+	margin-top: 12em;	
+}
+
+/*Boutons*/
+.button,#button{
+
+	width: 80px;
+	padding : 0em 1em 0em 1em;
+	color:#C8C8C8 ;
+	text-decoration: none;
+	text-align: center;
+	border : 1px solid black ;
+     background: -webkit-linear-gradient(#4682B4, #007b97);
+     background:    -moz-linear-gradient(#4682B4, #007b97);
+     background:     -ms-linear-gradient(#4682B4, #007b97);
+     background:      -o-linear-gradient(#4682B4, #007b97);
+     background:         linear-gradient(#4682B4, #007b97);
+     border-radius: 5px;
+     color : white ;
+     text-shadow: 0px 0px 1px white ;
+}
+
+a:hover{
+	font-weight : bolder;
+}
+
+/*Balise section*/
+
+#bas{
+	margin-right:22em;
+	margin-left: 1em;
+	background-color: #F8F8FF;
+	text-align: center;
+	padding-bottom: 20px;
+	border-radius:7px;
+	box-shadow: 2px 2px 5px #888888;
+}
+#bas h4{
+	font-size: large;
+	background-color: #B0C4DE;
+	border-radius: 5px;
+}
+
+section{
+	padding-bottom: 3em;
+}
+section div{
+	float : right;
+	width : 200px;
+	background-color: #F8F8FF;
+	text-align: center;
+	padding-bottom: 20px;
+	border-radius:7px;
+	box-shadow: 2px 2px 5px #888888;
+}
+section div h6{
+	font-style: italic;
+}
+
+article,article h5{
+	margin : 1em 3em 0em 3em;
+}
+section div img{
+	margin-top: 10px;
+}
+article h5{
+	margin-top: 5em;
+}
+#bas h5, #bas img{
+	padding-left : 10px;
+	margin-left: 1em;
+		font-family:cursive
+}
+section div a{
+	text-decoration: none;
+	color: gray;
+	font-style: oblique;
+}
+section th img{
+	text-align: center;
+	padding-right: 1em;
+}
+/*La balise footer*/
+footer{
+color :white;
+	text-align: center;
+}
